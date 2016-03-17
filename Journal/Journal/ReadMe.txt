@@ -4,6 +4,8 @@
 
 AppWizard has created this Journal application for you.
 
+So a lappen project
+
 This file contains a summary of what you will find in each of the files that
 make up your Journal application.
 
