@@ -44,7 +44,7 @@ int main()
   cout << endl << "Nachname: ";
   cin >> tmp_string;
   Anyone.setLastname(tmp_string);
-  cout << endl << "Bitte geben Sie das gewünschte Format ein:" << endl;
+  cout << endl << "Bitte geben Sie das gewÃ¼nschte Format ein:" << endl;
   cout << "Format = 1  Max Mustermann" << endl;
   cout << "Format = 2  Mustermann, Max" << endl;
   cout << "Format = 3  M. Mustermann" << endl;
@@ -62,7 +62,7 @@ int main()
   cout << endl << "Jahr: ";
   cin >> tmp_Date;
   Anyone.setYear(tmp_Date);
-  cout << endl << "Bitte geben sie das gewünschte Format ein:" << endl;
+  cout << endl << "Bitte geben sie das gewÃ¼nschte Format ein:" << endl;
   cout << "Format = 1  Jan 01, 1900" << endl;
   cout << "Format = 3  01.01.1900" << endl;
   cout << "Format = 4  01 Jan 1900" << endl;
@@ -75,5 +75,6 @@ int main()
   cout << Anyone.getBirthdayFormat() << endl;
 
   cout << endl << "------------ENDE-------------" << endl;
- 
+  
+  return 0;
 }
